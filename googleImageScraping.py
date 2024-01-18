@@ -68,7 +68,7 @@ def download_images(folder_path, file_prefix, urls):
                 file.write(response.content)
         except Exception as e:
             print(f"Error downloading image {i+1}: {e}")
-# i was working with a query variable to make fetching easy but its not always good to find accurate prompts thats what i was talking about above in fetching method 
+# i was working with a query variable to make fetching easy but its not always good to find accurate prompts, this is what i was talking about above in fetching method 
 query = 'corianderCulinaire'  # Replace 'your search query' with the term you want to search for
 max_links = 90  # Number of image links you want to fetch
 folder = 'image_folder_coriander'  # Folder to save the images
